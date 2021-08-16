@@ -7,7 +7,7 @@ client.once('ready', () => {
 });
 
 client.on ('message', message => {
-    if (message.content.startsWith(`${prefix}spam`)) {
+    if (message.content.startsWith(`${prefix}spam `)) {
         for (let i = 0; i < 5; i++) {
         message.channel.send(`oof`);
         }
